@@ -1,0 +1,27 @@
+{
+  "compilerOptions": {
+    "target": "esnext",
+    "module": "commonjs",
+    "moduleResolution": "node",
+    "lib": [
+      "esnext"
+    ],
+    "rootDir": "./",
+    "outDir": "./dist",
+    "allowJs": true,
+    "checkJs": false,
+    "strict": true,
+    "sourceMap": true,
+    "allowSyntheticDefaultImports": true,
+    "experimentalDecorators": true,
+    "strictPropertyInitialization": false,
+  },
+  "include": [
+    "**/*.ts",
+    "**/*.js",
+    "**/.eslintrc.js",
+  ],
+  "exclude": [
+    "node_modules",
+  ]
+}

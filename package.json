@@ -1,0 +1,30 @@
+{
+  "name": "minimal-nodeapp",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/jest": "^25.2.1",
+    "@types/node": "^13.13.4",
+    "@types/source-map-support": "^0.5.1",
+    "decamelize": "^4.0.0",
+    "jest": "^25.4.0",
+    "onchange": "^7.0.0",
+    "sequelize-mock": "^0.10.2",
+    "serve": "^11.3.0",
+    "source-map-support": "^0.5.19",
+    "ts-jest": "^25.4.0",
+    "typescript": "^3.8.3"
+  },
+  "dependencies": {
+    "pg": "^8.0.3",
+    "pg-hstore": "^2.3.3",
+    "sequelize": "^5.21.7"
+  }
+}
